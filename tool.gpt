@@ -1,0 +1,8 @@
+description: Uses the GitHub API to create issues.
+
+args: repo: The repository to create the issue in. Must be in the format "owner/repo".
+args: title: The title of the issue.
+args: body: The body of the issue.
+args: assignees: A comma-separated list of users to assign to the issue (i.e. "user1,user2,user3").
+
+#!${GPTSCRIPT_TOOL_DIR}/bin/gptscript-go-tool "${GPTSCRIPT_INPUT}"

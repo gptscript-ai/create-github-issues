@@ -1,0 +1,4 @@
+tools: github.com/gptscript-ai/create-github-issues
+
+Create an issue called "My issue" in the g-linville/test repo. Assign it to g-linville.
+The issue body should state that the issue was created by GPTScript.
