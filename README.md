@@ -2,8 +2,7 @@
 
 This is a GPTScript tool that uses the GitHub API to create issues.
 
-Set your GitHub access token to the `GPTSCRIPT_GITHUB_TOKEN` environment variable in order to use this tool.
-If the variable is not set, the tool will attempt to make unauthenticated API calls.
+When you run the tool, it will prompt you for your GitHub personal access token.
 
 ## Example
 
