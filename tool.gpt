@@ -1,8 +1,10 @@
-description: Uses the GitHub API to create issues.
+Name: create-github-issues
+Description: Uses the GitHub API to create issues.
+Credential: github.com/gptscript-ai/credential as githubToken with "Please provide your GitHub personal access token" as message and token as field and GPTSCRIPT_GITHUB_TOKEN as env
 
-args: repo: The repository to create the issue in. Must be in the format "owner/repo".
-args: title: The title of the issue.
-args: body: The body of the issue.
-args: assignees: A comma-separated list of users to assign to the issue (i.e. "user1,user2,user3").
+Param: repo: The repository to create the issue in. Must be in the format "owner/repo".
+Param: title: The title of the issue.
+Param: body: The body of the issue.
+Param: assignees: A comma-separated list of users to assign to the issue (i.e. "user1,user2,user3").
 
 #!${GPTSCRIPT_TOOL_DIR}/bin/gptscript-go-tool "${GPTSCRIPT_INPUT}"
